@@ -6,7 +6,7 @@
 body, html{
     height: 100%;
     margin: 0;
-    color: red;
+    color: black;
 }
 
 html{
@@ -30,7 +30,18 @@ body{
 
 .embedded-video{
     margin: auto;
-    position: fixed;
+    position: absolute;
+    width: 560px;
+    left: 200px;
     bottom: 0;
-    left: 20%;
+}
+
+.game{
+   width: 250px;
+    position: absolute;
+    left: 160px;
+    top: 250px;
+    font-size: 1.2em;
+    border: solid black 3px;
+    padding: 7px;
 }
