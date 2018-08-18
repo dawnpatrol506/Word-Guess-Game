@@ -16,6 +16,7 @@ html{
 body{
     width: 960px;
     margin: auto;
+    position: relative;
 }
 
 .bg{
@@ -39,8 +40,8 @@ body{
 .game{
    width: 250px;
     position: absolute;
-    left: 160px;
     top: 250px;
+    left: 180px;
     font-size: 1.2em;
     border: solid black 3px;
     padding: 7px;
